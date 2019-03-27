@@ -1,0 +1,17 @@
+#footer
+{
+	font-family: Arial;
+	color: #282828;
+	position: absolute;
+	bottom: 0px;
+	right: 80px;
+}
+
+#footer-background
+{
+	width:400px;
+	height:50px;
+	background:#ececec;
+	margin-left: 1200px;
+	margin-top: 739px;
+}
