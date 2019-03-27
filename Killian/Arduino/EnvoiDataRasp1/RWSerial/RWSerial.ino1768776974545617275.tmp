@@ -1,0 +1,18 @@
+
+String receive_string;
+int i=0;
+
+void setup() {
+  // initialize serial:
+  Serial1.begin(9600);
+  Serial.begin(9600);
+  // make the pins outputs:
+
+}
+
+void loop() {
+  // if there's any serial available, read it:
+    Serial.print("Hello world!!!");
+    Serial.println(i++);
+    
+}
