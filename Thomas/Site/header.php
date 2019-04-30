@@ -14,4 +14,4 @@ echo 	"<meta charset='utf-8'>".
     	"<link href='./css/starter-template.css' rel='stylesheet'>".
    		 "</head>".
       "<link href='./style.css' rel='stylesheet'>"
-?>
+?> 
