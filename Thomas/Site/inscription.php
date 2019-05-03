@@ -1,22 +1,86 @@
 <head>
-    <title>Base de vitesse</title>
+<meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>BASE DE VITESSE</title>
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:400,100,300,500">
+        <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
+		<link rel="stylesheet" href="assets/css/form-elements.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+        <!-- Favicon and touch icons -->
+        <link rel="shortcut icon" href="assets/ico/favicon.png">
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
   </head>
-<h1>Inscription<h1>
-<form method="post" action="">
 
-<label>nom : <input type="text" name="nom"/></label><br/>
+<body>
 
-<label>prénom : <input type="text" name="prenom"/></label><br/>
-
-<label>Adresse e-mail: <input type="text" name="mail"/></label><br/>
-
-<label>Mot de passe : <input type="password" name="pass"/></label><br/>
-
-<label>Confirmation du mot de passe : <input type="password" name="pass2"/></label><br/>
-
-<label>âge : <input type="text" name="age"/></label><br/>
-
-<select name="pays">
+<!-- Top content -->
+<div class="top-content">
+  
+    <div class="inner-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8 col-sm-offset-2 text">
+                    <h1><strong>BASE DE VITESSE</strong></h1>
+                    <div class="description">
+                      <p>
+                        Watch, display and save real-time data about your sea races !
+                      </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6 col-sm-offset-3 form-box">
+                  <div class="form-top">
+                    <div class="form-top-left">
+                      <h3>Sign up to our site</h3>
+                        <p>Complete the informations below to continue</p>
+                    </div>
+                    <div class="form-top-right">
+                      <i class="fa fa-lock"></i>
+                    </div>
+                    </div>
+                    <div class="form-bottom">
+                  <form role="form" action="" method="post" class="login-form">
+                    <div class="form-group">
+                      <label class="sr-only" for="nom">Last Name</label>
+                        <input type="text" name="nom" placeholder="Last Name..." class="form-lastname form-control" id="inputLastName">
+                      </div>
+                      <div class="form-group">
+                        <label class="sr-only" for="prenom">First Name</label>
+                        <input type="text" name="prenom" placeholder="First Name..." class="form-firstname form-control" id="inputFirstName">
+                      </div>
+                      <div class="form-group">
+                        <label class="sr-only" for="mail">Mail</label>
+                        <input type="text" name="mail" placeholder="Mail..." class="form-mail form-control" id="inputMail">
+                      </div>
+                      <div class="form-group">
+                        <label class="sr-only" for="pass">Password</label>
+                        <input type="password" name="pass" placeholder="Password..." class="form-password form-control" id="inputPassword">
+                      </div>
+                      <div class="form-group">
+                        <label class="sr-only" for="password">Password</label>
+                        <input type="password" name="pass2" placeholder="Password2..." class="form-password2 form-control" id="inputPassword2">
+                      </div>
+                      <div class="form-group">
+                        <label class="sr-only" for="age">Age</label>
+                        <input type="text" name="age" placeholder="Age..." id="inputAge">
+                      </div>
+                      <select name="pays">
 <option value="France" selected="selected">France </option>
 
 <option value="Afghanistan">Afghanistan </option>
@@ -259,7 +323,6 @@
 <option value="Zimbabwe">Zimbabwe </option>
 
 </select>
-
 <p>
 
 Comptez-vous participer à des compétitions ?<br />
@@ -268,9 +331,27 @@ Comptez-vous participer à des compétitions ?<br />
 
 </p>
 
-<input type="submit" name="submit" value="M'inscrire"/>
+                      <button type="submit" name="submit" class="btn">Sign up!</button>
+                        </form>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</div>
 
-</form>
+
+<!-- Javascript -->
+<script src="assets/js/jquery-1.11.1.min.js"></script>
+        <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+        <script src="assets/js/jquery.backstretch.min.js"></script>
+        <script src="assets/js/scripts.js"></script>
+        
+        <!--[if lt IE 10]>
+            <script src="assets/js/placeholder.js"></script>
+        <![endif]-->
+
 <?php
 require_once ("./header.php");
 require_once ("./login_bdd.php");
