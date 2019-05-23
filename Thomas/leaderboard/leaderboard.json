@@ -1,0 +1,24 @@
+{
+    "players": [
+      {
+        "name": "Mary Hyena",
+        "score": 34
+      },
+      {
+        "name": "Caroline Bear",
+        "score": 32
+      },
+      {
+        "name": "Tom Eagle",
+        "score": 24
+      },
+      {
+        "name": "Jim Unicorn",
+        "score": 11
+      },
+      {
+        "name": "Player 1",
+        "score": 0
+      }
+    ]
+  }
