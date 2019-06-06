@@ -374,7 +374,7 @@ require_once ("./login_bdd.php");
                       // On crypte le mot de passe
                       // $_POST['pass']= md5($_POST['pass']);
                       // on se connecte à MySQL et on sélectionne la base
-                      $c = new mysqli("127.0.0.1","administrateur","password","base_de_vitesse");
+                      $c = new mysqli("mysql-base-de-vitesse.alwaysdata.net","184427","q2ymcrai","base-de-vitesse_bdd");
                       //On crée la requête
                       $sql = "INSERT INTO utilisateurs
                       (nom, prenom, mail, password, age, nationalite, competiteur) 

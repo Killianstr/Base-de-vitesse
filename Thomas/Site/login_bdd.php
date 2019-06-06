@@ -1,8 +1,8 @@
 <?php
-$hn="127.0.0.1";
-$db="base_de_vitesse";
-$un="administrateur";
-$pw="password";
+$hn="mysql-base-de-vitesse.alwaysdata.net";
+$db="base-de-vitesse_bdd";
+$un="184427";
+$pw="q2ymcrai";
 
 $con=new mysqli($hn,$un,$pw,$db);
 $con->set_charset("utf8");
