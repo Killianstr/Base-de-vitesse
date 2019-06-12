@@ -34,12 +34,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-14 col-sm-offset-2 text">
-                    <h1><strong>BASE DE VITESSE</strong></h1>
-                    <div class="description">
-                      <p>
-                        Consulte, affiche et enregistre des vitesses en temps réel à propos des compétitions sur mers !
-                      </p>
-                    </div>
+                    
                 </div>
             </div>
             <div class="row">
@@ -322,15 +317,15 @@
 <option value="Zimbabwe">Zimbabwe </option>
 
 </select>
-<p>
+<p style="color:rgb(227,208,204);">
 
 Comptez-vous participer à des compétitions ?<br />
-<input type="radio" name="question" value="TRUE" id="oui" /> <label for="oui">oui</label>
-<input type="radio" name="question" value="FALSE" id="non" /> <label for="non">non</label>
+<input style="color:rgb(227,208,204);" type="radio" name="question" value="TRUE" id="oui" /> <label for="oui">oui</label>
+<input style="color:rgb(227,208,204);" type="radio" name="question" value="FALSE" id="non" /> <label for="non">non</label>
 
 </p>
 
-                      <button type="submit" name="submit" class="btn">Sign up!</button>
+                      <button type="submit" name="submit" class="btn">Inscription !</button>
                         </form>
                 </div>
                 </div>
