@@ -80,8 +80,8 @@ require_once("./header.php")
                         <div class="col-sm-6 col-sm-offset-3 form-box">
                         	<div class="form-top">
                         		<div class="form-top-left">
-                        			<h3>Login to our site</h3>
-                            		<p>Enter your mail address and password to log on:</p>
+                        			<h3>Connectez-vous sur notre site !</h3>
+                            		<p>Entrez votre adresse mail et votre mot de passe pour vous connecter</p>
                         		</div>
                         		<div class="form-top-right">
                         			<i class="fa fa-lock"></i>
@@ -91,16 +91,16 @@ require_once("./header.php")
 			                    <form role="form" action="" method="post" class="login-form">
 			                    	<div class="form-group">
 			                    		<label class="sr-only" for="inputLogin">Mail</label>
-			                        	<input type="text" name="login" placeholder="Username..." class="form-username form-control" id="inputLogin">
+			                        	<input type="text" name="login" placeholder="Adresse Mail..." class="form-username form-control" id="inputLogin">
 			                        </div>
 			                        <div class="form-group">
 			                        	<label class="sr-only" for="inputPassword">Password</label>
-			                        	<input type="password" name="password" placeholder="Password..." class="form-password form-control" id="inputPassword">
+			                        	<input type="password" name="password" placeholder="Mot de passe..." class="form-password form-control" id="inputPassword">
 			                        </div>
-			                        <button type="submit" class="btn">Sign in!</button>
+			                        <button type="submit" class="btn">Connexion !</button>
                                 </form>
 							</div>
-							<div><a style = "color:white;" href="inscription.php"> First visit ? Sign up here ! </a></div>
+							<div><a style = "color:white;" href="inscription.php"> Première visite ? Inscrivez-vous ici ! </a></div>
                         </div>
                     </div>
                 </div>

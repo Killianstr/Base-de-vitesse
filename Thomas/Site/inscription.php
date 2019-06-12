@@ -30,15 +30,14 @@
 
 <!-- Top content -->
 <div class="top-content">
-  
     <div class="inner-bg">
         <div class="container">
             <div class="row">
-                <div class="col-sm-8 col-sm-offset-2 text">
+                <div class="col-sm-14 col-sm-offset-2 text">
                     <h1><strong>BASE DE VITESSE</strong></h1>
                     <div class="description">
                       <p>
-                        Watch, display and save real-time data about your sea races !
+                        Consulte, affiche et enregistre des vitesses en temps réel à propos des compétitions sur mers !
                       </p>
                     </div>
                 </div>
@@ -47,8 +46,8 @@
                 <div class="col-sm-6 col-sm-offset-3 form-box">
                   <div class="form-top">
                     <div class="form-top-left">
-                      <h3>Sign up to our site</h3>
-                        <p>Complete the informations below to continue</p>
+                      <h3>Inscrivez-vous au site</h3>
+                        <p>Compléter les informations ci-dessous pour vous inscrire</p>
                     </div>
                     <div class="form-top-right">
                       <i class="fa fa-lock"></i>
@@ -57,24 +56,24 @@
                     <div class="form-bottom">
                   <form role="form" action="" method="post" class="login-form">
                     <div class="form-group">
-                      <label class="sr-only" for="nom">Last Name</label>
-                        <input type="text" name="nom" placeholder="Last Name..." class="form-lastname form-control" id="inputLastName">
+                      <label class="sr-only" for="nom">Nom</label>
+                        <input type="text" name="nom" placeholder="Nom..." class="form-lastname form-control" id="inputLastName">
                       </div>
                       <div class="form-group">
-                        <label class="sr-only" for="prenom">First Name</label>
-                        <input type="text" name="prenom" placeholder="First Name..." class="form-firstname form-control" id="inputFirstName">
+                        <label class="sr-only" for="prenom">Prénom</label>
+                        <input type="text" name="prenom" placeholder="Prénom..." class="form-firstname form-control" id="inputFirstName">
                       </div>
                       <div class="form-group">
                         <label class="sr-only" for="mail">Mail</label>
                         <input type="text" name="mail" placeholder="Mail..." class="form-mail form-control" id="inputMail">
                       </div>
                       <div class="form-group">
-                        <label class="sr-only" for="pass">Password</label>
-                        <input type="password" name="pass" placeholder="Password..." class="form-password form-control" id="inputPassword">
+                        <label class="sr-only" for="pass">Mot de passe</label>
+                        <input type="password" name="pass" placeholder="Mot de passe..." class="form-password form-control" id="inputPassword">
                       </div>
                       <div class="form-group">
-                        <label class="sr-only" for="password">Password</label>
-                        <input type="password" name="pass2" placeholder="Password2..." class="form-password2 form-control" id="inputPassword2">
+                        <label class="sr-only" for="password">Vérification du mot de passe</label>
+                        <input type="password" name="pass2" placeholder="Vérification du mot de passe..." class="form-password2 form-control" id="inputPassword2">
                       </div>
                       <div class="form-group">
                         <label class="sr-only" for="age">Age</label>
@@ -401,6 +400,7 @@ require_once ("./login_bdd.php");
       ?>
 
 <?php
+/*
 echo '
 <table>
 <tr>
@@ -447,4 +447,5 @@ echo"<tr>
 }}}
 echo'</table>';
   phpinfo();
+  */
 ?>
